@@ -1,10 +1,29 @@
-git config --global user.name"ferices"
+git config --global user.name "ferices"
+git config --global user.email "fredrick.erices@outlook.com"
 
-git config --global user.email"fredrick.erices@outlook.com"
-
+----------------------------------------------------------------
+SENTENCIA PARA INICIAR UN NUEVO PROYECTO
 git init
-
+-----------------------------------------------------------
+SENTENCIA PARA CLONAR UN PROYECTO EXISTENTE EN EL REPOSITORIO
 git clone https://github.com/MariaClaraNextU/Cenicienta.git
+-----------------------------------------------
+
+Es importante identificar a quien está trabajando en el proyecto
+
+git config --global user.email "fredrick.erices@outlook.com"
+git config --global user.name "ferices"
+-----------------------------------
+
+Sentencia para agregar archivo al espacio de preparación antes de hacer el commit de la versión
 
 git add nombrearchivo.algo
+-------------------------------------------------------------
 
+Sentencia para hacer el commit al repoitorio de git y guardar la versión definitiva
+
+git commit -m "Descripción de los cambios hechos al proyecto"
+---------------------------------------------------------------------
+COMANDO QUE MUESTRA UN HISTORIAL DE LOS CAMBIOS HECHOS AL PROYECTO
+
+git log
