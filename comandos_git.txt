@@ -31,4 +31,12 @@ git log
 COMANDO PARA VER LAS DIFERENCIAS ENTRE LOS COMMIT
 
 git diff id_commit_1 id_commit_2
+
+en este caso se pueden utilizar los primeros 5 caracteres del identificador
 -------------------------------------------
+COMANDO PARA REGRESAR A UNA VERSIÓN ANTERIOR
+
+git checkout id_commit
+
+en este caso se pueden utilizar los primeros 5 caracteres del identificador
+--------------------------------------------------------------------------
