@@ -40,3 +40,39 @@ git checkout id_commit
 
 en este caso se pueden utilizar los primeros 5 caracteres del identificador
 --------------------------------------------------------------------------
+COMANDO PARA INCORPORAR ETIQUETAS
+
+git tag -a nombre_de_la_etiqueta -m "mensaje explicativo"
+Ejemplo:
+git tag -a imagen -m "se incorpora imagen gif"
+
+-------------------------------------------------------------------------------
+COMANDO PARA AGREGAR TODOS LOS ARCHIVOS DE UNA CARPETA
+
+git add .
+
+con el punto al final le indicamos que agregue todos los archivos de la carpeta
+-------------------------------------------------------------------------------
+COMADOS PARA USAR RAMAS EN EL PROYECTO, ES DECIR, VERSIONES ALTERNATIVAS
+LA SIGUIENTE SENTENCIA CREA RAMA NUEVA
+git branch nombre_de_la_rama
+
+ESTA SENTENCIA ES PARA VOLVER A LA VERSION ANTERIOR DE LA RAMA
+git checkout nombre_de_la_rama
+
+DESPUES DE UTILIZAR ESTA SENTENCIA ES IMPORTANTE UTILIZAR EL commit
+
+git branch    (sentencia que muestra todas las ramas de mi proyecto)
+-------------------------------------------------------------------------------
+SENTENCIA PARA UNIR RAMAS (antes se debe ir a la rama principal con el comando: git checkout master)
+
+git merge rama
+
+-------------------------------------------------------------------------------
+EN GIT PARA PASAR LOS ARCHIVOS DE NUESTRO REPOSITORIO LOCAL A GITHUB SE DEBE REALIZAR UN push
+
+PARA TRAER LOS DATOS DESDE EL REPOSITORIO PUBLICO GITHUB AL EQUIPO LOCAL SE DEBE USAR EL COMANDO pun
+	
+-------------------------------------------------------------------------------
+CAMBIOS PARA PROBAR PUSH
+
